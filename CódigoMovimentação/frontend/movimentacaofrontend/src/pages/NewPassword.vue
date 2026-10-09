@@ -39,7 +39,7 @@
 <script setup>
 import { ref } from 'vue';
 import { Notify } from 'quasar';
-import { newpassword } from 'src/services/userService';
+import { updatePasswordBackend } from 'src/services/userService';
 import { useRouter } from 'vue-router';
 
 const userData = ref({
